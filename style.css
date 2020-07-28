@@ -107,26 +107,24 @@ a:hover{
     position:relative;
 	opacity:1;
 	width:100%;
-	height:700px;
+	height:880px;
     background-color: white;
 }
 
 #e128_2 { 
 	position:relative;
 	opacity:1;
-	width:545px;
+	width:100%;
 	height:715px;
 }
 #e11_3 { 
-	box-shadow:8px 0px 4px rgba(0, 0, 0, 0.3199999928474426);
-	background-color: #FF8F00;
-	opacity:1;
-	border:1px solid #FF8F00;
 	width:745px;
 	height:713px;
 	position:absolute;
 	left:0px;
-	top:0px;
+    top:0px;
+    background-image: url("123.png");
+    background-size: 745px 815px;
 }
 #e1_11 { 
 	color:rgba(255, 255, 255, 1);
@@ -135,7 +133,7 @@ a:hover{
 	position:absolute;
 	left:56px;
 	top:233px;
-	font-family:Noto Sans;
+	font-family:Avenir Next Condensed Bold;
 	text-align:left;
 	font-size:75px;
 	letter-spacing:0;
@@ -160,7 +158,7 @@ a:hover{
     position: relative;
     opacity: 1;
     width: 298px;
-    height: 504px;
+    height: 480px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -170,7 +168,7 @@ a:hover{
     width: 184.44163513183594px;
     height: 36.513824462890625px;
     position: absolute;
-    top: 466.281px;
+    top: 440px;
     font-family: Roboto;
     text-align: center;
     font-size: 24px;
@@ -201,8 +199,8 @@ a:hover{
 .e21_11 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     opacity: 1;
-    width: 298px;
-    height: 165px;
+    width: 268px;
+    height: 125px;
     position: absolute;
     top: 58.9838752746582px;
     background-repeat: no-repeat;
@@ -210,14 +208,15 @@ a:hover{
 .e21_10 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 1);
-    width: 287px;
-    height: 211px;
+    width: 248px;
+    height: 190px;
     position: absolute;
     top: 229.38172912597656px;
 font-family: 'Nanum Gothic', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     padding-top: 8px;
-    padding-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
     padding-bottom: 0;
 }
 .e2_23 { 
@@ -248,26 +247,26 @@ font-family: 'Nanum Gothic', sans-serif;
 }
 #e27_8 { 
 	position: absolute;
-	width:311.7718811035156px;
-    height:614.1812133789062px;
+	width:300px;
+    height:580px;
     left : 950px;
     top : 40px;
 }
 #e11_5 { 
 	background-color:rgba(255, 143.00000667572021, 0, 1);
-	width:311.7718811035156px;
-	height:614.1812133789062px;
+	width:300px;
+	height:580px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
 #e21_2 { 
 	color:rgba(255, 255, 255, 1);
-	width:147.9278106689453px;
-	height:20.59754180908203px;
+	width:140px;
+	height:20px;
 	position:absolute;
-	left:82.39018249511719px;
-	top:70.09906005859375px;
+	left:80px;
+	top:30px;
 	font-family:'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:20px;
@@ -279,8 +278,8 @@ font-family: 'Nanum Gothic', sans-serif;
 	width:147.9278106689453px;
 	height:20.59754180908203px;
 	position:absolute;
-	left:82.39018249511719px;
-	top:260.0944519042969px;
+	left:80px;
+	top:240px;
 	font-family:'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:20px;
@@ -292,8 +291,8 @@ font-family: 'Nanum Gothic', sans-serif;
 	width:147.9278106689453px;
 	height:20.59754180908203px;
 	position:absolute;
-	left:82.39018249511719px;
-	top:450.8348388671875px;
+	left:80px;
+	top:420px;
 	font-family:'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:20px;
@@ -348,6 +347,7 @@ font-family: 'Nanum Gothic', sans-serif;
     position:relative;
 	width:100%;
 	height:896px;
+	top: 0;
 	background-image: url("Group14.png");
 	background-repeat: no-repeat;
 }
@@ -364,4 +364,22 @@ font-family: 'Nanum Gothic', sans-serif;
  top:0;
  bottom:0;
 }
-
+.oh{
+	width: 1100px;
+    height: 50px;
+    position: absolute;
+	top: 680px;	
+	left: 135px ;
+}
+.k2 { 
+	position: absolute;
+	width:100%;
+    height:715px;
+    margin: 0 auto;
+}
+.k2 img {
+    width:100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

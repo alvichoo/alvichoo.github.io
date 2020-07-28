@@ -26,9 +26,9 @@
   }
   .footer__logo {
     font-family: Timmana;
-    font-size: 6 rem;
+    font-size: 60px;
+    margin: auto;
   }
-  
   .footer__addr h2 {
     margin-top: 1.3em;
     font-size: 15px;
@@ -38,12 +38,6 @@
   .nav__title {
     color: #7B1FA2;
     font-size: 20px;
-  }
-  
-  .footer address {
-    font-style: normal;
-    color: white;
-    font-family:'Nanum Gothic', sans-serif;
   }
   
   .footer__btn {
@@ -102,9 +96,16 @@
       margin-left: auto;
     }
   
-
+.wew{
+  width: auto;
+    margin-top: 0px;
+    }
     
+.wew li{
+  display: inline-block;
+  padding: 15px 10px;
+}
 
-    
+.qq{margin-top:auto ;}
   
  
