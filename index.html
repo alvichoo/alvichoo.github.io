@@ -15,15 +15,16 @@
 </head>
 <header>
     <div id="e4_2">
-        <div id="e1_3"></div><span id="e2_2">Perpileman</span>
+        <div id="e1_3"></div><span id="e2_2">Perpileman  <img src="logo.png"></span>
       </div>
     <ul class="headnya">
-        <li><a href="#">Register</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="./profil.html">Register</a></li>
+        <li><a href="#popup" class="popup-link">Login</a></li>
         
     </ul>
 </header>
 <body>
+
   <div id="e128_2">
     <div class="k2">
     <img src="https://images.unsplash.com/photo-1574267432553-4b4628081c31?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=denise-jans-OaVJQZ-nFD0-unsplash.jpg">
@@ -80,6 +81,23 @@
             </div>
         </div>
     </div> 
+    
+  <div class="popup-wrapper" id="popup">
+    <div class="popup-container">
+    <form action="./123.html" method="post" class="popup-form">
+    <h2>Welcome</h2>
+    <p>Silahkan login terlebih dahulu<br />
+    <div class="input-group">
+    <p><input type="email" name="email" placeholder="Email Address"></p>
+    <p><input type="password" name="password" placeholder="Password"></p> 
+    <input type="hidden" name="source" value="./123.html">
+    <input type="submit" value="Submit" >
+    </p>
+    </div>
+    </form>
+    <a class="popup-close" href="#closed">X</a>
+    </div>
+    </div>
 </body>
 
 <footer class="footer"> 
@@ -176,4 +194,5 @@
     </ul>
     </div>
   </footer>
+
 </html>

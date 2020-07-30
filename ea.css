@@ -5,7 +5,6 @@ body,html{
     padding-bottom: 0;
     background-color: whitesmoke;
 }
-
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
@@ -108,16 +107,26 @@ a{
 #e2_8 { 
 	color:rgba(255, 255, 255, 1);
 	opacity:1;
-	width:217px;
 	height:62.02130126953125px;
 	position:absolute;
-	left:50px;
-	top:92.97869873046875px;
 	font-family:Timmana;
-	text-align:left;
 	font-size:50px;
 	letter-spacing:0;
 	line-height:undefined;
+}
+.awewe{
+	left:50px;
+	top:92.97869873046875px;
+	width:280px;
+	height: 80px;
+	position:absolute;
+}
+.awewe img {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-top: 5px;
+	filter: hue-rotate(340deg);
 }
 #e2_11 { 
 	background-color:rgba(255, 143.00000667572021, 0, 1);
@@ -236,20 +245,6 @@ a{
 	left:386px;
 	top:87px;
 }
-#e2_8 { 
-	color:rgba(255, 255, 255, 1);
-	opacity:1;
-	width:217px;
-	height:62.02130126953125px;
-	position:absolute;
-	left:50px;
-	top:92.97869873046875px;
-	font-family:Timmana;
-	text-align:left;
-	font-size:50px;
-	letter-spacing:0;
-	line-height:undefined;
-}
 #e2_11 { 
 	background-color:rgba(255, 143.00000667572021, 0, 1);
 	opacity:1;
@@ -365,9 +360,9 @@ a{
 	width:58px;
 	height:36px;
 	position:absolute;
-	left:149px;
+	left:125px;
 	top:22px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:36px;
 	letter-spacing:0;
@@ -379,9 +374,9 @@ a{
 	width:145px;
 	height:31px;
 	position:absolute;
-	left:177px;
+	left:125px;
 	top:68px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
@@ -394,9 +389,9 @@ a{
 	width:129px;
 	height:26px;
 	position:absolute;
+	font-family: 'Nanum Gothic', sans-serif;
 	left:111px;
-	top:245px;
-	font-family:Roboto;
+	top:200px;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
@@ -409,8 +404,8 @@ a{
 	height:26px;
 	position:absolute;
 	left:111px;
-	top:285px;
-	font-family:Roboto;
+	top:240px;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
@@ -423,36 +418,8 @@ a{
 	height:26px;
 	position:absolute;
 	left:111px;
-	top:322px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_50 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:122px;
-	height:26px;
-	position:absolute;
-	left:111px;
-	top:393px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_51 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:122px;
-	height:26px;
-	position:absolute;
-	left:111px;
-	top:485px;
-	font-family:Roboto;
+	top:280px;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
@@ -464,9 +431,9 @@ a{
 	width:158px;
 	height:26px;
 	position:absolute;
-	left:111px;
-	top:578px;
-	font-family:Roboto;
+	left:100px;
+	top:508px;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
@@ -488,7 +455,7 @@ a{
 	position:absolute;
 	left:103px;
 	top:0px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:36px;
 	letter-spacing:0;
@@ -502,7 +469,7 @@ a{
 	position:absolute;
 	left:103px;
 	top:48px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
@@ -523,7 +490,7 @@ a{
 	position:absolute;
 	left:2px;
 	top:138px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -537,7 +504,7 @@ a{
 	position:absolute;
 	left:1px;
 	top:345px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -551,7 +518,7 @@ a{
 	position:absolute;
 	left:1px;
 	top:413px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -565,7 +532,7 @@ a{
 	position:absolute;
 	left:0px;
 	top:492px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -579,7 +546,7 @@ a{
 	position:absolute;
 	left:2px;
 	top:272px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -593,7 +560,7 @@ a{
 	position:absolute;
 	left:2px;
 	top:204px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:right;
 	font-size:24px;
 	letter-spacing:0;
@@ -643,7 +610,7 @@ a{
 	background-color:rgba(255, 255, 255, 0.10000000149011612);
 	opacity:1;
 	border:1px solid rgba(0, 0, 0, 1);
-	width:80px;
+	width:90px;
 	height:35px;
 	position:absolute;
 	left:316px;
@@ -658,16 +625,6 @@ a{
 	position:absolute;
 	left:457px;
 	top:489px;
-}
-#e4_30 { 
-	background-color:rgba(255, 255, 255, 0.10000000149011612);
-	opacity:1;
-	border:1px solid rgba(0, 0, 0, 1);
-	width:181px;
-	height:35px;
-	position:absolute;
-	left:282px;
-	top:779px;
 }
 #e2_86 { 
 	background-color:rgba(255, 255, 255, 0.10000000149011612);
@@ -712,48 +669,6 @@ a{
 	left:767px;
 	top:399px;
 }
-#e2_88 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:25px;
-	height:27px;
-	position:absolute;
-	left:321px;
-	top:494px;
-	font-family:Roboto;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e2_89 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:123px;
-	height:27px;
-	position:absolute;
-	left:463px;
-	top:493px;
-	font-family:Roboto;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e2_90 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:62px;
-	height:27px;
-	position:absolute;
-	left:669px;
-	top:493px;
-	font-family:Roboto;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
 #e2_102 { 
 	opacity:1;
 	border:1px solid rgba(0, 0, 0, 1);
@@ -788,17 +703,23 @@ a{
 	height:57px;
 	position:absolute;
 	left:298px;
-	top:908px;
+	top:885px;
 }
 #e2_108 { 
 	color:rgba(255, 255, 255, 1);
-	opacity:1;
 	width:123px;
 	height:27px;
 	position:absolute;
-	left:313px;
-	top:923px;
-	font-family:Roboto;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:auto;
+ margin-bottom:auto;
+ left:0;
+ right:0;
+ top:0;
+ bottom:0;
+	position:absolute;
+	font-family:'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
@@ -812,7 +733,7 @@ a{
 	position:absolute;
 	left:384px;
 	top:412px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
@@ -824,9 +745,9 @@ a{
 	width:132px;
 	height:33px;
 	position:absolute;
-	left:607px;
+	left:615px;
 	top:412px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
@@ -838,9 +759,9 @@ a{
 	width:132px;
 	height:33px;
 	position:absolute;
-	left:830px;
+	left:822px;
 	top:412px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
 	font-size:24px;
 	letter-spacing:0;
@@ -874,9 +795,9 @@ a{
 	position:absolute;
 	left:229px;
 	top:821px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:center;
-	font-size:24px;
+	font-size:22px;
 	letter-spacing:0;
 	line-height:undefined;
 }
@@ -910,34 +831,6 @@ a{
 	height:551px;
 	float: left;
 	margin-left:40px;
-}
-#e4_33 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:51.1328010559082px;
-	height:31.737600326538086px;
-	position:absolute;
-	left:131.3583984375px;
-	top:19.395200729370117px;
-	font-family:Roboto;
-	text-align:center;
-	font-size:36px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_34 { 
-	color:rgba(0, 0, 0, 0.5);
-	opacity:1;
-	width:127.83200073242188px;
-	height:27.329599380493164px;
-	position:absolute;
-	left:156.04319763183594px;
-	top:59.94879913330078px;
-	font-family:Roboto;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
 }
 #e4_43 { 
 	border-radius:500px;
@@ -979,48 +872,6 @@ a{
 	left:16.75040054321289px;
 	top:197.4783935546875px;
 }
-#e4_39 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:113.72640228271484px;
-	height:22.921600341796875px;
-	position:absolute;
-	left:97.85759735107422px;
-	top:215.99200439453125px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_44 { 
-	color:rgba(202.93750405311584, 97.5791135430336, 52.42551326751709, 1);
-	opacity:1;
-	width:113.72640228271484px;
-	height:22.921600341796875px;
-	position:absolute;
-	left:97.85759735107422px;
-	top:251.25599670410156px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_45 { 
-	color:rgba(0, 0, 0, 0.30000001192092896);
-	opacity:1;
-	width:161.33279418945312px;
-	height:22.921600341796875px;
-	position:absolute;
-	left:97.85759735107422px;
-	top:283.8752136230469px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
 #e4_50 { 
 	color:rgba(0, 0, 0, 1);
 	opacity:1;
@@ -1029,7 +880,7 @@ a{
 	position:absolute;
 	left:97.85759735107422px;
 	top:346.46881103515625px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
@@ -1043,28 +894,14 @@ a{
 	position:absolute;
 	left:97.85759735107422px;
 	top:427.57598876953125px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-	line-height:undefined;
-}
-#e4_59 { 
-	color:rgba(0, 0, 0, 1);
-	opacity:1;
-	width:139.2928009033203px;
-	height:22.921600341796875px;
-	position:absolute;
-	left:97.85759735107422px;
-	top:509.5647888183594px;
-	font-family:Roboto;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
 	line-height:undefined;
 }
 #e9_2 { 
-	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 0);
+	color: black;
 	opacity:1;
 	width:112.84480285644531px;
 	height:115.4896011352539px;
@@ -1072,7 +909,10 @@ a{
 	left:0px;
 	top:0px;
 }
-
+#e9_2 .material-icons{
+	color: black !important; 
+	font-size: 50px;
+}
 #e4_93 .material-icons{
 	color: white;
 	font-size: 50px;
@@ -1113,3 +953,34 @@ top: 0;
   .con input:checked ~ .checkmark:after {
 	display: block;
   }
+  .select {
+	width: 100%;
+	height: 50px;
+	font-size: 100%;
+	font-weight: bold;
+	cursor: pointer;
+	color:black;
+	-webkit-appearance: none;
+  }
+  .button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 150px
+  }
+  #e9_2 .material-icons{
+	  font-size: 100px;
+  }
+   #e2_15 input {
+	width:658px;
+	background-color: transparent;
+    border: 0px solid;
+	height:55px;
+	outline: none;
+    }
